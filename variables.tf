@@ -1,0 +1,16 @@
+variable "region" {}
+variable "access_key" {}
+variable "secret_key" {}
+variable "vpc_cidr" {}
+variable "public_subnet_cidr" {}
+variable "public_ip" {}
+variable "availability_zone" {}
+variable "private_subnet_cidr" {}
+variable "all_traffic" {}
+variable "security_group_name" {}
+variable "port" {}
+variable "protocol" {}
+variable "ami" {}
+variable "instance_type" {}
+variable "key_name" {}
+variable "instance_count" {}
