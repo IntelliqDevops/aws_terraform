@@ -1,0 +1,16 @@
+region = "us-east-2"
+access_key = "bbbbbbbbbbbbbb"
+secret_key = "aaaaaaaaaaa"
+vpc_cidr = "10.0.0.0/24"
+public_subnet_cidr = "10.0.0.0/25"
+public_ip = true
+availability_zone = "us-east-2b"
+private_subnet_cidr = "10.0.0.128/25"
+all_traffic = "0.0.0.0/0"
+security_group_name = "my_security"
+port = 0
+protocol = "-1"
+ami = "ami-0d1b5a8c13042c939"
+instance_type = "t2.micro"
+key_name = "ansible_ohio"
+instance_count = 1
